@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epistore.core", "epistore.core\epistore.core.csproj", "{2A19A38A-A6B1-429C-81BC-D5FD103A02AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpiStore.Core", "EpiStore.Core\EpiStore.Core.csproj", "{2A19A38A-A6B1-429C-81BC-D5FD103A02AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epistore.Data", "EpiStore.Data\EpiStore.Data.csproj", "{6F69CF49-3C61-4735-AC2A-C36A3A78998D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +32,17 @@ Global
 		{2A19A38A-A6B1-429C-81BC-D5FD103A02AE}.Release|x64.Build.0 = Release|Any CPU
 		{2A19A38A-A6B1-429C-81BC-D5FD103A02AE}.Release|x86.ActiveCfg = Release|Any CPU
 		{2A19A38A-A6B1-429C-81BC-D5FD103A02AE}.Release|x86.Build.0 = Release|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Debug|x64.Build.0 = Debug|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Debug|x86.Build.0 = Debug|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Release|x64.ActiveCfg = Release|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Release|x64.Build.0 = Release|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F69CF49-3C61-4735-AC2A-C36A3A78998D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

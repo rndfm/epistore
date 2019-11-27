@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/christian/repos/epistore/epistore.core/epistore.core.csproj",
-      "projectName": "epistore.core",
-      "projectPath": "/home/christian/repos/epistore/epistore.core/epistore.core.csproj",
+      "projectUniqueName": "/home/christian/repos/epistore/EpiStore.Core/EpiStore.Core.csproj",
+      "projectName": "EpiStore.Core",
+      "projectPath": "/home/christian/repos/epistore/EpiStore.Core/EpiStore.Core.csproj",
       "packagesPath": "/home/christian/.nuget/packages/",
-      "outputPath": "/home/christian/repos/epistore/epistore.core/obj/",
+      "outputPath": "/home/christian/repos/epistore/EpiStore.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/christian/.nuget/NuGet/NuGet.Config"
