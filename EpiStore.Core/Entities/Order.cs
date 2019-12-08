@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel.DataAnnotations;
 
 namespace EpiStore.Core.Entities
 {
@@ -21,7 +20,6 @@ namespace EpiStore.Core.Entities
         /// </summary>
         /// <value>Must be unique, Eg. 1337, IF1337</value>
         // TODO: Validate string structure for order number series.
-        [Required]
         public string OrderNumber { get; set; }
 
         public ICollection<OrderLine> OrderLines { get; set; }

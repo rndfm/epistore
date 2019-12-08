@@ -1,4 +1,12 @@
-namespace EpiStore.Core.Repositories
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
+using EpiStore.Core.Repositories;
+using Microsoft.EntityFrameworkCore;
+
+namespace EpiStore.Data.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
@@ -25,12 +33,12 @@ namespace EpiStore.Core.Repositories
 
         public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return  await Context.Set<TEntity>().ToListAsync();
+            return await Context.Set<TEntity>().ToListAsync();
         }
 
         public ValueTask<TEntity> GetByIdAsync(int id)
         {
-            return Context.Set<TEntity>().FindAsync(id);
+            return new ValueTask<TEntity>(Context.Set<TEntity>().FindAsync(id));
         }
 
         public void Remove(TEntity entity)

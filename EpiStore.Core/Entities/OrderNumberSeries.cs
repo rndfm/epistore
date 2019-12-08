@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations;
 
 namespace EpiStore.Core.Entities
 {
@@ -9,20 +8,16 @@ namespace EpiStore.Core.Entities
     /// </summary>
     public class OrderNumberSeries
     {
-        [Required]
         public int Id { get; set; }
 
-        [Required]
         public string Name { get; set; }
 
-        [Required]
         public string Prefix { get; set; }
 
         /// <summary>
         /// Current value for last increment of the order number.
         /// Next order will get order number Counter + 1
         /// </summary>
-        [Required]
         public int Counter { get; set; }
     }
 }

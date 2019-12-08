@@ -1,0 +1,8 @@
+/home/christian/repos/epistore/EpiStore.Core/bin/Debug/netstandard2.0/EpiStore.Core.deps.json
+/home/christian/repos/epistore/EpiStore.Core/bin/Debug/netstandard2.0/EpiStore.Core.dll
+/home/christian/repos/epistore/EpiStore.Core/bin/Debug/netstandard2.0/EpiStore.Core.pdb
+/home/christian/repos/epistore/EpiStore.Core/obj/Debug/netstandard2.0/EpiStore.Core.csprojAssemblyReference.cache
+/home/christian/repos/epistore/EpiStore.Core/obj/Debug/netstandard2.0/EpiStore.Core.AssemblyInfoInputs.cache
+/home/christian/repos/epistore/EpiStore.Core/obj/Debug/netstandard2.0/EpiStore.Core.AssemblyInfo.cs
+/home/christian/repos/epistore/EpiStore.Core/obj/Debug/netstandard2.0/EpiStore.Core.dll
+/home/christian/repos/epistore/EpiStore.Core/obj/Debug/netstandard2.0/EpiStore.Core.pdb

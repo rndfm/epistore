@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+
 namespace EpiStore.Core.Entities
 {
     public class Category
@@ -5,7 +8,7 @@ namespace EpiStore.Core.Entities
         public Category()
         {
             Children = new Collection<Category>();
-            Product = new Collection<Product>();
+            Products = new Collection<Product>();
         }
         
         public bool Enabled { get; set; }

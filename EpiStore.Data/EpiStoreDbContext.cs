@@ -1,3 +1,7 @@
+using EpiStore.Core.Entities;
+using EpiStore.Data.Configurations;
+using Microsoft.EntityFrameworkCore;
+
 namespace EpiStore.Data
 {
     public class EpiStoreDbContext : DbContext

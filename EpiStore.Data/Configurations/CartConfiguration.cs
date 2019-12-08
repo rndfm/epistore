@@ -1,3 +1,7 @@
+using EpiStore.Core.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace EpiStore.Data.Configurations
 {
     public class CartConfiguration : IEntityTypeConfiguration<Cart>
@@ -8,8 +12,7 @@ namespace EpiStore.Data.Configurations
                 .HasKey(m => m.Id);
 
             builder
-                .Property(m => m.Id)
-                .UseIdentityColumn();
+                .Property(m => m.Id);
 
             builder
                 .ToTable("Carts");

@@ -4,14 +4,14 @@
     "/home/christian/repos/epistore/EpiStore.Data/EpiStore.Data.csproj": {}
   },
   "projects": {
-    "/home/christian/repos/epistore/EpiStore.Data/EpiStore.Data.csproj": {
+    "/home/christian/repos/epistore/EpiStore.Core/EpiStore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/christian/repos/epistore/EpiStore.Data/EpiStore.Data.csproj",
-        "projectName": "EpiStore.Data",
-        "projectPath": "/home/christian/repos/epistore/EpiStore.Data/EpiStore.Data.csproj",
+        "projectUniqueName": "/home/christian/repos/epistore/EpiStore.Core/EpiStore.Core.csproj",
+        "projectName": "EpiStore.Core",
+        "projectPath": "/home/christian/repos/epistore/EpiStore.Core/EpiStore.Core.csproj",
         "packagesPath": "/home/christian/.nuget/packages/",
-        "outputPath": "/home/christian/repos/epistore/EpiStore.Data/obj/",
+        "outputPath": "/home/christian/repos/epistore/EpiStore.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/christian/.nuget/NuGet/NuGet.Config"
@@ -36,12 +36,67 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/christian/repos/epistore/EpiStore.Data/EpiStore.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/christian/repos/epistore/EpiStore.Data/EpiStore.Data.csproj",
+        "projectName": "EpiStore.Data",
+        "projectPath": "/home/christian/repos/epistore/EpiStore.Data/EpiStore.Data.csproj",
+        "packagesPath": "/home/christian/.nuget/packages/",
+        "outputPath": "/home/christian/repos/epistore/EpiStore.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/christian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/christian/repos/epistore/EpiStore.Core/EpiStore.Core.csproj": {
+                "projectPath": "/home/christian/repos/epistore/EpiStore.Core/EpiStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.18, )"
@@ -51,6 +106,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.3, )"
             }
           },
           "imports": [
